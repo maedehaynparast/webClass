@@ -1,0 +1,38 @@
+:root{
+    --bgcolor:#c9184a;
+    --maincolor:#800f2f;
+    --seclogcolor:#ff8fa3;
+    --textcolor:#fff0f3;
+}
+
+body{
+    background:var(--bgcolor);
+    color: var(--textcolor);
+}
+
+#job{
+    font-size: 18px;
+}
+
+.summary{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 28px;
+    color:#590d22;
+}
+
+h2,h3{
+    font-size: 35px;
+    color: black;
+}
+
+#maharat1{
+    color: black;
+}
+
+p{
+    font-size: 29px;
+}
+
