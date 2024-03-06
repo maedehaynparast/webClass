@@ -1,0 +1,38 @@
+selectors{
+    declerations
+    property1: volue1:
+    property2: volue2:
+}
+
+:root{
+    --bgcolor:#f60cd3;
+    --maincolor:#ed97e6;
+    --secbgcolor: #f60c47;
+    --textcolor:#faf9fa;
+}
+
+body{
+    background: var(--bgcolor);
+    color: var(--textcolor);
+    direction: rtl;
+}
+
+h1{
+    font-size: 28px;
+}
+
+#job{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.summary{
+    font-size: 16px;
+    word-spacing: 20px;
+}
+
+h2{
+    font-size: 20px;
+    color: black;
+}
+
