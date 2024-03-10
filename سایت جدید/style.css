@@ -1,0 +1,101 @@
+:root{
+    --bgcolor:rgb(241, 241, 242);
+    --maincolor: #3c096c;
+    --secbgcolor: #b325de;
+    --textcolor:#111212 ;
+}
+
+body {
+    margin: 2px;
+    padding: 0;
+    direction: rtl;
+    scroll-behavior: smooth;
+    background: var(--bgcolor);
+    color: var(--textcolor);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.parent{
+    border:0.5px solid #16002a;
+    border-radius: 0;
+    padding:2px 2px 10px 10px;
+    background: linear-gradient(#240046,#fcfefd);
+    line-height: 19px;
+}
+
+#name,#job{
+    display:block;
+}
+
+.parent ul li{
+    display:inline;
+    padding:10px
+}
+
+a:haver{
+    color:rgb(30, 29, 29)
+}
+
+.footer{
+    border:0.5px solid #16002a;
+    border-radius: 0;
+    padding:2px 2px 10px 10px;
+    background: linear-gradient(#fcfefd,#240046);
+}
+
+.footer ul li{
+    display:inline;
+    padding:10px
+}
+
+a:haver{
+    color:rgb(30, 29, 29);
+}
+
+
+a{
+    color:#eaeef1;
+    text-shadow: 1px 2px 6px #050208;
+}
+
+#name{
+    font-size: 28px;
+    color: #111212;
+}
+
+#job{
+    font-size: 18px;
+   font-weight: bold;
+}
+
+.summary{
+    font-size: 16px;
+    word-spacing: 20pxs;
+}
+
+h2{
+    font-size: 20px;
+    color: #a705f9;
+}
+
+.parent,.footer{
+    text-align: center;
+}
+
+h1{
+    font-size: 55px;
+    color: #f4f0f5;
+    text-shadow: 1px 2px 6px #de25b0;
+}
+
+.button{
+    box-shadow: 0 0 1rem #240046;
+    border: 2px solid #a705f9;
+    padding: 8px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 130px;
+    height: 19px;
+}
