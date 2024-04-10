@@ -1,0 +1,182 @@
+header {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+header a {
+    color: #2a2a2a;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 5px;
+    position: relative;
+    top: -10px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header img {
+    border-radius: 16px;
+}
+
+header button {
+    background-color: #1a73e8;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: white;
+    width: 96px;
+    height: 36px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+header button:hover {
+    box-shadow: 0px 0px 2px 2px rgba(220, 220, 220, 0.8);
+    background-color: #1b66c9;
+}
+
+header button:active {
+    position: relative;
+    box-shadow: none;
+    left: 1px;
+    bottom: 9px;
+}
+
+#products {
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+#products:hover {
+    box-shadow: 0px 0px 5px 3px rgba(220, 220, 220, 0.8);
+}
+
+div {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 10%;
+}
+
+div img {
+    width: 270px;
+    height: 95px;
+    margin: 5px;
+}
+
+form div {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+form div img {
+    width: 22px;
+    height: 22px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#magnifier {
+    position: relative;
+    opacity: 0.45;
+    transform: rotate(-15deg);
+    left: 37px;
+    top: 6px;
+}
+
+#voicesrch {
+    position: relative;
+    right: 75px;
+    top: 6px;
+}
+
+#imagesrch {
+    position: relative;
+    right: 65px;
+    top: 6px;
+}
+
+#voicesrch:hover,
+#imagesrch:hover {
+    cursor: pointer;
+}
+
+.search {
+    width: 570px;
+    height: 45px;
+    border: 1px solid #dfe1e5;
+    border-radius: 22px;
+    padding-left: 45px;
+    padding-right: 60px;
+    font: 16px arial, sans-serif;
+    text-indent: 5px;
+}
+
+.search:focus {
+    outline: none;
+    border: 1px solid #dfe1e5;
+}
+
+.search:hover {
+    box-shadow: 0px 2px 3px 3px rgba(220, 220, 220, 0.4);
+}
+
+.search::-webkit-search-cancel-button {
+    display: none;
+}
+
+/*جعبه ها*/
+.button {
+    border: 1px solid #fbf9fa;
+    background: #fbf9fa;
+    color: #696969;
+    margin: 15px 4px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0px 1px 1px 1px rgba(220, 220, 220, 0.3);
+}
+
+/*بخش پایین صفحه*/
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: #f2f2f2;
+    border-top: 1px solid #e9e9e9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    padding: 15px 0px;
+}
+
+footer a {
+    color: #1f1f1f;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
